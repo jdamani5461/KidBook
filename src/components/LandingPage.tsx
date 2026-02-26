@@ -12,7 +12,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       {/* ── Hero ── */}
-      <header className="relative overflow-hidden bg-gradient-to-br from-violet-600 via-purple-600 to-pink-500 text-white">
+      <header className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-600 to-cyan-400 text-white">
         <div className="absolute inset-0 opacity-10 text-8xl pointer-events-none select-none overflow-hidden leading-tight">
           🌟⭐✨💫🌟⭐✨💫🌟⭐✨💫🌟⭐✨💫🌟⭐✨💫
         </div>
@@ -182,7 +182,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="bg-gradient-to-br from-violet-600 to-pink-500 py-20 text-center text-white">
+      <section className="bg-gradient-to-br from-blue-900 to-cyan-400 py-20 text-center text-white">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
